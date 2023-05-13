@@ -1,0 +1,25 @@
+#https://blog.csdn.net/Yu_luoluo/article/details/122061461
+spring:
+  application:
+    # 服务提供者的名称
+    name: order-server
+  cloud:
+    nacos:
+      discovery:
+        # 启动Nacos的地址
+        server-addr: localhost:8848
+        # 在Nacos页面建的命名空间
+        namespace: a3937325-c6e1-451c-8953-32d2a44bbfe2
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        group: order-server
+        namespace: ${spring.cloud.nacos.discovery.namespace}
+        file-extension: yaml
+
+
+server:
+  port: 8070
+
+mybatis:
+  mapper-locations:
+    classpath: /mapper/*.xml
