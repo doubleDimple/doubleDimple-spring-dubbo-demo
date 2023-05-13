@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.3.2.RELEASE/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-server/order-server-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-server/order-server-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-base/src/main/java" charset="UTF-8" />
