@@ -1,10 +1,9 @@
-#https://blog.csdn.net/Yu_luoluo/article/details/122061461
 spring:
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-        namespace: order-server
+        namespace: stock-server
       config:
         server-addr: ${spring.cloud.nacos.discovery.server-addr}
         group: DEFAULT_GROUP
@@ -14,3 +13,4 @@ spring:
 mybatis:
   mapper-locations:
     classpath: /mapper/*.xml
+

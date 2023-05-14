@@ -8,5 +8,9 @@
     <file url="file://$PROJECT_DIR$/order-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-server/stock-server-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-server/stock-server-platform/src/main/java" charset="UTF-8" />
   </component>
 </project>

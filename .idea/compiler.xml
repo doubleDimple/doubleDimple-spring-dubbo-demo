@@ -7,7 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="stock-server-api" />
         <module name="order-server-provider" />
+        <module name="stock-server-platform" />
         <module name="order-server-api" />
       </profile>
     </annotationProcessing>
@@ -23,6 +25,9 @@
       <module name="order-server" options="" />
       <module name="order-server-api" options="-parameters" />
       <module name="order-server-provider" options="-parameters" />
+      <module name="stock-server" options="" />
+      <module name="stock-server-api" options="-parameters" />
+      <module name="stock-server-platform" options="-parameters" />
       <module name="xiqing-study-project-user" options="" />
       <module name="xiqing-study-project-user-api" options="-parameters" />
     </option>

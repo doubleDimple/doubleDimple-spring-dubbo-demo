@@ -1,4 +1,4 @@
-package com.doubledimple.orderserverapi.service;
+package com.doubledimple.orderserver.service;
 
 public interface OrderService {
 

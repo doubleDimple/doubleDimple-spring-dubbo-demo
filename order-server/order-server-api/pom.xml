@@ -11,7 +11,7 @@
 
     <artifactId>order-server-api</artifactId>
     <groupId>com.doubleDimple</groupId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

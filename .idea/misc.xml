@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/server-base/pom.xml" />
         <option value="$PROJECT_DIR$/order-server/order-server-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-server/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-server/stock-server-api/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-server/stock-server-platform/pom.xml" />
       </list>
     </option>
   </component>
