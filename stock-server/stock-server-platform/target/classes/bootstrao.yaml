@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: stock-server
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        group: DEFAULT_GROUP
+        namespace: ${spring.cloud.nacos.discovery.namespace}
+        file-extension: yaml
+
+mybatis:
+  mapper-locations:
+    classpath: /mapper/*.xml
+
