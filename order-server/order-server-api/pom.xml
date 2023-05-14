@@ -10,11 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>order-server-api</artifactId>
+    <groupId>com.doubleDimple</groupId>
+    <version>1.0.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>maven2 repository-releases</name>
+            <url>http://127.0.0.1:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id> <!-- 选择settings文件中的快照版本的id-->
+            <name>xx maven2 repository-snapshots</name>
+            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url><!-- 私服地址-->
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
